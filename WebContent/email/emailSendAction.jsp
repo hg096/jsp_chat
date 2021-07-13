@@ -32,7 +32,7 @@
 		return;
 	}
 	String host = "http://localhost:8015/export/";
-	String from = "gmlrb34@gmail.com";
+	String from = "---@gmail.com";
 	String to = userDAO.getUserEmail(userID);
 	String subject = "리뷰사이트 회원가입을 위한 이메일 인증 메일 입니다.";
 	String content = "다음 링크에 접속하여 이메일 인증을 진행하세요."
